@@ -1,0 +1,21 @@
+{
+  "name": "api_sistema_vagas",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "nodemon servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "node": "^20.18.0",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.4"
+  }
+}
